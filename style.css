@@ -36,7 +36,7 @@ section{
     color: white;
 }
 .pimg1{
-    background-image: url(https://github.com/Jjunior112/Parallax/blob/main/foto1.jpg);
+    background-image: url(https://jjunior112.github.io/Parallax/foto1.jpg);
     min-height: 100%;
      /*
     min-height em % para que a img seja usada em seu tamanho original
@@ -45,14 +45,14 @@ section{
 }
 
 .pimg2{
-    background-image: url(https://github.com/Jjunior112/Parallax/blob/main/foto2.jpg);
+    background-image: url(https://jjunior112.github.io/Parallax/foto2.jpg);
     min-height: 400px;
     /*
     min-height em px para dar o efeito do scroll 
     */
 }
 .pimg3{
-    background-image: url(https://github.com/Jjunior112/Parallax/blob/main/foto3.jpg);
+    background-image: url(https://jjunior112.github.io/Parallax/foto3.jpg);
     min-height: 400px;
 }
 .pimg1, .pimg2, .pimg3{
