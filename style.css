@@ -71,7 +71,7 @@ section{
     */
 
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 100px){
     body, html, .pt,.border,.bordertrans,.pimg1,.pimg2,.pimg3,section,.section-dark,.section-light{
         width: 100%;
     }
