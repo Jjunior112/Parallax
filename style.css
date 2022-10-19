@@ -1,0 +1,73 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font: 400 16px 'Lucida Sans Regular';
+    line-height: 1.8em;
+}
+.pt{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.border{
+    color: white;
+    background-color: rgb(123,118,118);
+    padding: 20px;
+}
+.bordertrans{
+    background-color: transparent;
+}
+section{
+    text-align: center;
+    padding: 50px 80px;
+
+}
+.section-light{
+    background-color: rgb(218,214,214);
+    color: rgb(73,70,70);
+}
+.section-dark{
+    background-color: rgb(28,28,48);
+    color: white;
+}
+.pimg1{
+    background-image: url(https://github.com/Jjunior112/Parallax/blob/main/foto1.jpg);
+    min-height: 100%;
+     /*
+    min-height em % para que a img seja usada em seu tamanho original
+    
+    */
+}
+
+.pimg2{
+    background-image: url(https://github.com/Jjunior112/Parallax/blob/main/foto2.jpg);
+    min-height: 400px;
+    /*
+    min-height em px para dar o efeito do scroll 
+    */
+}
+.pimg3{
+    background-image: url(https://github.com/Jjunior112/Parallax/blob/main/foto3.jpg);
+    min-height: 400px;
+}
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    /*
+    Para imagem ocupar todo o espaço da pagina.
+    */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+       /*
+        fixed= parallax
+        scroll= normal
+    */
+
+}
