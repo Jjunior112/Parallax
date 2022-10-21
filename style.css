@@ -4,6 +4,36 @@ body, html{
     font: 400 16px 'Lucida Sans Regular';
     line-height: 1.8em;
 }
+.links {
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    margin: 0 auto;
+    width: 160px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.links:hover{
+    background-color: rgb(123, 118, 118);
+}
+.links:active{
+    background-color: rgb(112, 131, 192);
+}
+.news{
+    padding: 20px;
+    border: 2px double white;
+    margin: 10px;
+    width: 260px;
+    background-color: transparent;
+    display: inline-block;
+}
+.img{
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    opacity: 0.75;
+}
 .pt{
     position: absolute;
     top: 50%;
@@ -55,7 +85,11 @@ section{
     background-image: url(https://jjunior112.github.io/Parallax/foto3.jpg);
     min-height: 400px;
 }
-.pimg1, .pimg2, .pimg3{
+.pimg4{
+    background-image: url(https://jjunior112.github.io/Parallax/foto7.jpg);
+    min-height: 400px;
+}
+.pimg1, .pimg2, .pimg3, .pimg4{
     position: relative;
     opacity: 0.75;
     background-position: center;
@@ -71,7 +105,10 @@ section{
     */
 
 }
-@media screen and (max-width: 100px){
+@media screen and (max-width: 50px){
     body, html, .pt,.border,.bordertrans,.pimg1,.pimg2,.pimg3,section,.section-dark,.section-light{
         width: 100%;
     }
+    
+    
+}
