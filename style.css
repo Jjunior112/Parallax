@@ -86,7 +86,7 @@ section{
     min-height: 400px;
 }
 .pimg4{
-    background-image: url(https://jjunior112.github.io/Parallax/foto7.jpg);
+    background-image: url(https://jjunior112.github.io/Parallax/foto7.png);
     min-height: 400px;
 }
 .pimg1, .pimg2, .pimg3, .pimg4{
@@ -106,7 +106,7 @@ section{
 
 }
 @media screen and (max-width: 50px){
-    body, html, .pt,.border,.bordertrans,.pimg1,.pimg2,.pimg3,section,.section-dark,.section-light{
+    body, html, .pt,.border,.bordertrans,.pimg1,.pimg2,.pimg3,.pimg4,section,.section-dark,.section-light, .img, .links, .links:active,.links:hover, .news {
         width: 100%;
     }
     
